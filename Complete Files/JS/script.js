@@ -1,3 +1,13 @@
+function arrayPrint(arr){
+    let f = 1;
+    for(i in arr){
+        console.log("Element "+f+":"+arr[i]);
+        f++;
+    }
+}
+
+
+/*
 console.log("Hello");
 let x = 4;
 const y = 5;
@@ -56,3 +66,62 @@ if(x>=0 && x<2){
 } else{
     console.log("very large");
 }
+
+*/
+/*
+This Lines
+Are
+Comments
+*/
+
+
+let fruits = ["Apples","Oranges","Grapes"];
+/*
+for(let i=0;i<3;i++){
+    console.log(fruits[i]);
+}
+
+for(let i in fruits){
+    console.log(fruits[i]);
+}
+
+for(let i of fruits){
+    console.log(i);
+}
+*/
+/*
+let i = 0;
+while(i<3){
+    console.log(fruits[i]);
+    i++;
+}
+
+i=0;
+do{
+    console.log(fruits[i]);
+    i++;
+} while(i<=2);
+
+let Found = false;
+let searchFruit = "Grapes";
+i=0;
+while(!Found && i<3){
+    if(fruits[i]===searchFruit){
+        Found = true;
+    } else{
+        i++;
+    }
+}
+console.log(Found);
+*/
+
+let poppedFruit = fruits.pop();
+fruits.push("Raspberry");
+fruits.push("Blueberry");
+
+arrayPrint(fruits);
+
+fruits.push(fruits.shift());
+fruits.unshift(poppedFruit);
+
+arrayPrint(fruits);
