@@ -1,14 +1,10 @@
-function arrayPrint(arr){
-    let f = 1;
-    for(i in arr){
-        console.log("Element "+f+":"+arr[i]);
-        f++;
-    }
-}
-
-
+//   --------Chapter 1-----------
 /*
 console.log("Hello");
+*/
+
+//   --------Chapter 2-----------
+/*
 let x = 4;
 const y = 5;
 console.log(x + y); //addition
@@ -68,15 +64,17 @@ if(x>=0 && x<2){
 }
 
 */
+
 /*
-This Lines
+These Lines
 Are
 Comments
 */
 
-
-let fruits = ["Apples","Oranges","Grapes"];
+//   --------Chapter 3-----------
 /*
+let fruits = ["Apples","Oranges","Grapes"];
+
 for(let i=0;i<3;i++){
     console.log(fruits[i]);
 }
@@ -113,7 +111,7 @@ while(!Found && i<3){
     }
 }
 console.log(Found);
-*/
+
 
 let poppedFruit = fruits.pop();
 fruits.push("Raspberry");
@@ -125,3 +123,7 @@ fruits.push(fruits.shift());
 fruits.unshift(poppedFruit);
 
 arrayPrint(fruits);
+*/
+
+//   --------Chapter 3-----------
+
