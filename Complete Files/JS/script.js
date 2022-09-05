@@ -18,7 +18,7 @@ let workDays = ["Sunday", "Tuesday", "Thursday"]; //array
 
 console.log(name + " has " + x + " pets");
 console.log(name + " has work on " + workDays[0]);
-console.log("Last day of work is on " + workDays[2]); 
+console.log("Last day of work is on " + workDays[2]);
 
 let xGreaterThanY = x > y;
 console.log(xGreaterThanY);
@@ -125,5 +125,9 @@ fruits.unshift(poppedFruit);
 arrayPrint(fruits);
 */
 
-//   --------Chapter 3-----------
+//   --------Chapter 4-----------
+const mainElement = document.getElementById("main");
+const listClass = document.getElementsByClassName("list");
+const tableTag = document.getElementsByTagName("table");
 
+document.getElementById("heading").innerHTML = "RAM";
