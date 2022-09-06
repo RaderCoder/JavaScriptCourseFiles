@@ -27,9 +27,6 @@ nav a{
     padding:2%;
     border-radius: 10px;
 }
-nav a:hover{
-    padding:3%;
-}
 h1{
     font-size: 170%;
 }

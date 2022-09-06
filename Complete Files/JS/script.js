@@ -126,8 +126,30 @@ arrayPrint(fruits);
 */
 
 //   --------Chapter 4-----------
+/*
+function hoverEffect(linkElement){
+    linkElement.style.padding = "3%";
+    linkElement.style.color = "rgb(255,255,255)";
+    linkElement.style.backgroundColor = "rgb(110,110,100)";
+}
+
+function leaveEffect(linkElement){
+    linkElement.style.padding = "2%";
+    linkElement.style.color = "rgb(110,110,100)";
+    linkElement.style.backgroundColor = "rgb(255,255,255)";
+}
+
 const mainElement = document.getElementById("main");
 const listClass = document.getElementsByClassName("list");
 const tableTag = document.getElementsByTagName("table");
 
 document.getElementById("heading").innerHTML = "RAM";
+
+const navigationBar = document.getElementById("navbar");
+const linkElements = navigationBar.getElementsByTagName("a");
+
+for(let i of linkElements){
+    i.style.color = "rgb(110,110,100)";
+    i.style.backgroundColor = "rgb(255,255,255)";
+}
+*/
